@@ -67,7 +67,7 @@ export class CustomersComponent implements OnInit, AfterViewInit {
     // Set ID on specific element using class as indetifier (loop)
     const page = document
       .querySelector('.main-tabs')
-      .querySelectorAll('.mat-tab-label ');
+      .querySelectorAll('.mat-tab-label');
 
     page.forEach((userItem, index) => {
       console.log(`We on ${userItem} on ${index}`);
